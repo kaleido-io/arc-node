@@ -31,31 +31,31 @@ unwrap_used = "deny"
 [workspace.dependencies]
 
 # eth
-alloy-consensus = { version = "2.0.4", default-features = false }
-alloy-eips = { version = "2.0.4", default-features = false }
+alloy-consensus = { version = "=2.0.4", default-features = false }
+alloy-eips = { version = "=2.0.4", default-features = false }
 alloy-evm = { version = "0.34.0", default-features = false }
-alloy-genesis = { version = "2.0.4", default-features = false }
+alloy-genesis = { version = "=2.0.4", default-features = false }
 
-alloy-network = { version = "2.0.4", default-features = false }
+alloy-network = { version = "=2.0.4", default-features = false }
 
 # op
 alloy-primitives = { version = "1.5.6", default-features = false, features = ["map-foldhash", "keccak-cache-global", "asm-keccak"] }
-alloy-provider = { version = "2.0.4", features = ["reqwest"], default-features = false }
+alloy-provider = { version = "=2.0.4", features = ["reqwest"], default-features = false }
 alloy-rlp = { version = "0.3.13", default-features = false, features = ["core-net"] }
-alloy-rpc-client = { version = "2.0.4", default-features = false, features = ["reqwest"] }
-alloy-rpc-types = { version = "2.0.4", features = ["eth"], default-features = false }
-alloy-rpc-types-admin = { version = "2.0.4", default-features = false }
-alloy-rpc-types-engine = { version = "2.0.4", default-features = false }
-alloy-rpc-types-eth = { version = "2.0.4", default-features = false }
-alloy-rpc-types-trace = { version = "2.0.4", default-features = false }
-alloy-rpc-types-txpool = { version = "2.0.4", default-features = false }
-alloy-serde = { version = "2.0.4", default-features = false }
-alloy-signer = { version = "2.0.4", default-features = false }
-alloy-signer-local = { version = "2.0.4", default-features = false, features = ["mnemonic"] }
+alloy-rpc-client = { version = "=2.0.4", default-features = false, features = ["reqwest"] }
+alloy-rpc-types = { version = "=2.0.4", features = ["eth"], default-features = false }
+alloy-rpc-types-admin = { version = "=2.0.4", default-features = false }
+alloy-rpc-types-engine = { version = "=2.0.4", default-features = false }
+alloy-rpc-types-eth = { version = "=2.0.4", default-features = false }
+alloy-rpc-types-trace = { version = "=2.0.4", default-features = false }
+alloy-rpc-types-txpool = { version = "=2.0.4", default-features = false }
+alloy-serde = { version = "=2.0.4", default-features = false }
+alloy-signer = { version = "=2.0.4", default-features = false }
+alloy-signer-local = { version = "=2.0.4", default-features = false, features = ["mnemonic"] }
 alloy-sol-macro = "1.5.6"
 alloy-sol-types = { version = "1.5.6", default-features = false }
-alloy-transport = { version = "2.0.4", default-features = false }
-alloy-transport-ws = { version = "2.0.4", default-features = false }
+alloy-transport = { version = "=2.0.4", default-features = false }
+alloy-transport-ws = { version = "=2.0.4", default-features = false }
 alloy-trie = { version = "0.9.4", default-features = false }
 
 arbitrary = "1.3"
