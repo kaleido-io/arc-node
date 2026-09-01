@@ -1435,7 +1435,7 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-evm",
  "reth-evm-ethereum",
- "reth-execution-cache 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
+ "reth-execution-cache",
  "reth-node-api",
  "reth-node-builder",
  "reth-payload-builder",
@@ -1445,7 +1445,7 @@ dependencies = [
  "reth-revm",
  "reth-storage-api",
  "reth-transaction-pool",
- "reth-trie-parallel 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
+ "reth-trie-parallel",
  "revm",
  "tokio",
  "tracing",
@@ -10006,8 +10006,8 @@ dependencies = [
  "futures-util",
  "metrics",
  "reth-chain-state",
- "reth-execution-cache 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-cache",
+ "reth-metrics",
  "reth-payload-builder",
  "reth-payload-builder-primitives",
  "reth-payload-primitives",
@@ -10015,7 +10015,7 @@ dependencies = [
  "reth-revm",
  "reth-storage-api",
  "reth-tasks",
- "reth-trie-parallel 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-parallel",
  "serde",
  "tokio",
  "tracing",
@@ -10041,10 +10041,10 @@ dependencies = [
  "reth-errors",
  "reth-ethereum-primitives",
  "reth-execution-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-storage-api",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "revm-database",
  "revm-state",
  "serde",
@@ -10150,12 +10150,12 @@ dependencies = [
  "reth-prune-types",
  "reth-revm",
  "reth-stages",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-static-file",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
  "reth-storage-api",
  "reth-tasks",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "reth-trie-db",
  "secp256k1 0.30.0",
  "serde",
@@ -10237,8 +10237,8 @@ dependencies = [
  "humantime-serde",
  "reth-network-types",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-static-file-types",
  "serde",
  "toml 0.9.12+spec-1.1.0",
  "url",
@@ -10312,10 +10312,10 @@ dependencies = [
  "reth-db-api",
  "reth-fs-util",
  "reth-libmdbx",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-nippy-jar",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
+ "reth-storage-errors",
  "reth-tracing",
  "rustc-hash",
  "strum 0.27.2",
@@ -10344,9 +10344,9 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-primitives-traits",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-storage-errors",
+ "reth-trie-common",
  "roaring",
  "serde",
 ]
@@ -10366,14 +10366,14 @@ dependencies = [
  "reth-config",
  "reth-db-api",
  "reth-etl",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
  "reth-fs-util",
  "reth-node-types",
  "reth-primitives-traits",
  "reth-provider",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-static-file-types",
+ "reth-trie",
  "reth-trie-db",
  "serde",
  "serde_json",
@@ -10437,7 +10437,7 @@ dependencies = [
  "rand 0.9.4",
  "reth-chainspec",
  "reth-ethereum-forks",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-peers",
  "secp256k1 0.30.0",
  "thiserror 2.0.18",
@@ -10488,7 +10488,7 @@ dependencies = [
  "reth-config",
  "reth-consensus",
  "reth-ethereum-primitives",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-p2p",
  "reth-network-peers",
  "reth-primitives-traits",
@@ -10548,7 +10548,7 @@ dependencies = [
  "reth-rpc-builder",
  "reth-rpc-eth-api",
  "reth-rpc-server-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-tasks",
  "reth-tokio-util",
  "reth-tracing",
@@ -10631,7 +10631,7 @@ dependencies = [
  "reth-payload-builder-primitives",
  "reth-payload-primitives",
  "reth-primitives-traits",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "serde",
  "thiserror 2.0.18",
  "tokio",
@@ -10665,9 +10665,9 @@ dependencies = [
  "reth-errors",
  "reth-ethereum-primitives",
  "reth-evm",
- "reth-execution-cache 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-cache",
  "reth-execution-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-p2p",
  "reth-payload-builder",
  "reth-payload-primitives",
@@ -10681,11 +10681,11 @@ dependencies = [
  "reth-static-file",
  "reth-tasks",
  "reth-tracing",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
+ "reth-trie-common",
  "reth-trie-db",
- "reth-trie-parallel 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-sparse 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-parallel",
+ "reth-trie-sparse",
  "revm",
  "revm-primitives",
  "schnellru",
@@ -10770,7 +10770,7 @@ dependencies = [
  "reth-fs-util",
  "reth-primitives-traits",
  "reth-provider",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-storage-api",
  "tokio",
  "tracing",
@@ -10782,8 +10782,8 @@ version = "2.2.0"
 source = "git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
 dependencies = [
  "reth-consensus",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
+ "reth-storage-errors",
  "thiserror 2.0.18",
 ]
 
@@ -10804,7 +10804,7 @@ dependencies = [
  "reth-ecies",
  "reth-eth-wire-types",
  "reth-ethereum-forks",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-peers",
  "reth-primitives-traits",
  "serde",
@@ -10877,7 +10877,7 @@ dependencies = [
  "reth-storage-api",
  "reth-tasks",
  "reth-transaction-pool",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "reth-trie-db",
 ]
 
@@ -10967,7 +10967,7 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-evm",
  "reth-evm-ethereum",
- "reth-execution-cache 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-cache",
  "reth-payload-builder",
  "reth-payload-builder-primitives",
  "reth-payload-primitives",
@@ -11018,13 +11018,13 @@ dependencies = [
  "futures-util",
  "metrics",
  "rayon",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
  "reth-execution-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
+ "reth-trie-common",
  "revm",
 ]
 
@@ -11044,31 +11044,13 @@ dependencies = [
  "reth-evm",
  "reth-execution-types",
  "reth-primitives-traits",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "revm",
 ]
 
 [[package]]
 name = "reth-execution-cache"
 version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-primitives",
- "fixed-cache",
- "metrics",
- "parking_lot",
- "reth-errors",
- "reth-metrics 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-primitives-traits",
- "reth-provider",
- "reth-revm",
- "reth-trie 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "tracing",
-]
-
-[[package]]
-name = "reth-execution-cache"
-version = "2.2.0"
 source = "git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
 dependencies = [
  "alloy-primitives",
@@ -11076,25 +11058,12 @@ dependencies = [
  "metrics",
  "parking_lot",
  "reth-errors",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-provider",
  "reth-revm",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "tracing",
-]
-
-[[package]]
-name = "reth-execution-errors"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-evm",
- "alloy-primitives",
- "alloy-rlp",
- "nybbles",
- "reth-storage-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "thiserror 2.0.18",
 ]
 
 [[package]]
@@ -11106,7 +11075,7 @@ dependencies = [
  "alloy-primitives",
  "alloy-rlp",
  "nybbles",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "thiserror 2.0.18",
 ]
 
@@ -11123,7 +11092,7 @@ dependencies = [
  "derive_more",
  "reth-ethereum-primitives",
  "reth-primitives-traits",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "revm",
  "serde",
  "serde_with",
@@ -11149,7 +11118,7 @@ dependencies = [
  "reth-evm",
  "reth-exex-types",
  "reth-fs-util",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-node-api",
  "reth-node-core",
  "reth-payload-builder",
@@ -11211,7 +11180,7 @@ dependencies = [
  "reth-revm",
  "reth-rpc-api",
  "reth-tracing",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "revm",
  "revm-bytecode",
  "revm-database",
@@ -11263,19 +11232,6 @@ source = "git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc4
 dependencies = [
  "bindgen",
  "cc",
-]
-
-[[package]]
-name = "reth-metrics"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "futures",
- "metrics",
- "metrics-derive",
- "reth-primitives-traits",
- "tokio",
- "tokio-util",
 ]
 
 [[package]]
@@ -11348,7 +11304,7 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-evm-ethereum",
  "reth-fs-util",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-net-banlist",
  "reth-network-api",
  "reth-network-p2p",
@@ -11415,7 +11371,7 @@ dependencies = [
  "reth-network-peers",
  "reth-network-types",
  "reth-primitives-traits",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "tokio",
  "tracing",
 ]
@@ -11595,9 +11551,9 @@ dependencies = [
  "reth-rpc-convert",
  "reth-rpc-eth-types",
  "reth-rpc-server-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "reth-tasks",
  "reth-tracing",
  "reth-tracing-otlp",
@@ -11693,7 +11649,7 @@ dependencies = [
  "reth-primitives-traits",
  "reth-prune-types",
  "reth-stages",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
  "reth-storage-api",
  "tokio",
  "tracing",
@@ -11715,7 +11671,7 @@ dependencies = [
  "metrics-util",
  "procfs 0.18.0",
  "reqwest 0.13.3",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-tasks",
  "tikv-jemalloc-ctl",
  "tokio",
@@ -11748,12 +11704,12 @@ dependencies = [
  "metrics",
  "reth-chain-state",
  "reth-ethereum-engine-primitives",
- "reth-execution-cache 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-cache",
+ "reth-metrics",
  "reth-payload-builder-primitives",
  "reth-payload-primitives",
  "reth-primitives-traits",
- "reth-trie-parallel 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-parallel",
  "tokio",
  "tokio-stream",
  "tracing",
@@ -11788,7 +11744,7 @@ dependencies = [
  "reth-errors",
  "reth-execution-types",
  "reth-primitives-traits",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "serde",
  "sha2 0.10.9",
  "thiserror 2.0.18",
@@ -11864,17 +11820,17 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-execution-types",
  "reth-fs-util",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-nippy-jar",
  "reth-node-types",
  "reth-primitives-traits",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-static-file-types",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "reth-tasks",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "reth-trie-db",
  "revm-database",
  "revm-state",
@@ -11899,12 +11855,12 @@ dependencies = [
  "reth-db-api",
  "reth-errors",
  "reth-exex-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-provider",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-static-file-types",
  "reth-storage-api",
  "reth-tokio-util",
  "rustc-hash",
@@ -11939,8 +11895,8 @@ dependencies = [
  "alloy-rpc-types-debug",
  "reth-primitives-traits",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
+ "reth-trie",
  "revm",
 ]
 
@@ -11990,7 +11946,7 @@ dependencies = [
  "reth-evm",
  "reth-evm-ethereum",
  "reth-execution-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-api",
  "reth-network-peers",
  "reth-network-types",
@@ -12007,7 +11963,7 @@ dependencies = [
  "reth-tasks",
  "reth-tracing",
  "reth-transaction-pool",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "revm",
  "revm-inspectors",
  "revm-primitives",
@@ -12046,7 +12002,7 @@ dependencies = [
  "reth-engine-primitives",
  "reth-network-peers",
  "reth-rpc-eth-api",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "serde",
  "serde_json",
 ]
@@ -12069,7 +12025,7 @@ dependencies = [
  "reth-engine-primitives",
  "reth-evm",
  "reth-ipc",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-api",
  "reth-node-core",
  "reth-payload-primitives",
@@ -12129,7 +12085,7 @@ dependencies = [
  "metrics",
  "reth-chainspec",
  "reth-engine-primitives",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-api",
  "reth-payload-builder",
  "reth-payload-builder-primitives",
@@ -12183,7 +12139,7 @@ dependencies = [
  "reth-storage-api",
  "reth-tasks",
  "reth-transaction-pool",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "revm",
  "revm-inspectors",
  "serde_json",
@@ -12219,7 +12175,7 @@ dependencies = [
  "reth-ethereum-primitives",
  "reth-evm",
  "reth-execution-types",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-revm",
  "reth-rpc-convert",
@@ -12227,7 +12183,7 @@ dependencies = [
  "reth-storage-api",
  "reth-tasks",
  "reth-transaction-pool",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "revm",
  "revm-inspectors",
  "schnellru",
@@ -12323,12 +12279,12 @@ dependencies = [
  "reth-prune-types",
  "reth-revm",
  "reth-stages-api",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "reth-tasks",
  "reth-testing-utils",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
  "reth-trie-db",
  "tempfile",
  "thiserror 2.0.18",
@@ -12350,27 +12306,18 @@ dependencies = [
  "reth-codecs",
  "reth-consensus",
  "reth-errors",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-network-p2p",
  "reth-primitives-traits",
  "reth-provider",
  "reth-prune",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-static-file",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
  "reth-tokio-util",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
-]
-
-[[package]]
-name = "reth-stages-types"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-primitives",
- "reth-trie-common 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
 ]
 
 [[package]]
@@ -12383,7 +12330,7 @@ dependencies = [
  "bytes",
  "modular-bitfield",
  "reth-codecs",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "serde",
 ]
 
@@ -12400,24 +12347,11 @@ dependencies = [
  "reth-primitives-traits",
  "reth-provider",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-static-file-types",
+ "reth-storage-errors",
  "reth-tokio-util",
  "tracing",
-]
-
-[[package]]
-name = "reth-static-file-types"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-primitives",
- "derive_more",
- "fixed-map",
- "reth-stages-types 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "serde",
- "strum 0.27.2",
 ]
 
 [[package]]
@@ -12429,7 +12363,7 @@ dependencies = [
  "clap",
  "derive_more",
  "fixed-map",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "serde",
  "strum 0.27.2",
  "tracing",
@@ -12452,29 +12386,11 @@ dependencies = [
  "reth-execution-types",
  "reth-primitives-traits",
  "reth-prune-types",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-storage-errors",
+ "reth-trie-common",
  "revm-database",
  "serde_json",
-]
-
-[[package]]
-name = "reth-storage-errors"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-eips 2.0.4",
- "alloy-primitives",
- "alloy-rlp",
- "derive_more",
- "reth-codecs",
- "reth-primitives-traits",
- "reth-prune-types",
- "reth-static-file-types 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "revm-database-interface",
- "revm-state",
- "thiserror 2.0.18",
 ]
 
 [[package]]
@@ -12489,7 +12405,7 @@ dependencies = [
  "reth-codecs",
  "reth-primitives-traits",
  "reth-prune-types",
- "reth-static-file-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-static-file-types",
  "revm-database-interface",
  "revm-state",
  "thiserror 2.0.18",
@@ -12508,7 +12424,7 @@ dependencies = [
  "parking_lot",
  "pin-project",
  "rayon",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "thiserror 2.0.18",
  "thread-priority",
  "tokio",
@@ -12605,7 +12521,7 @@ dependencies = [
  "reth-evm-ethereum",
  "reth-execution-types",
  "reth-fs-util",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-storage-api",
  "reth-tasks",
@@ -12626,30 +12542,6 @@ dependencies = [
 [[package]]
 name = "reth-trie"
 version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-consensus",
- "alloy-eips 2.0.4",
- "alloy-primitives",
- "alloy-rlp",
- "alloy-trie",
- "auto_impl",
- "itertools 0.14.0",
- "metrics",
- "reth-execution-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-metrics 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-primitives-traits",
- "reth-stages-types 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-storage-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-trie-common 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-trie-sparse 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "revm-database",
- "tracing",
-]
-
-[[package]]
-name = "reth-trie"
-version = "2.2.0"
 source = "git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
 dependencies = [
  "alloy-consensus",
@@ -12661,33 +12553,16 @@ dependencies = [
  "itertools 0.14.0",
  "metrics",
  "parking_lot",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
+ "reth-metrics",
  "reth-primitives-traits",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-sparse 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
+ "reth-storage-errors",
+ "reth-trie-common",
+ "reth-trie-sparse",
  "revm-database",
  "tracing",
  "triehash",
-]
-
-[[package]]
-name = "reth-trie-common"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-consensus",
- "alloy-primitives",
- "alloy-rlp",
- "alloy-trie",
- "derive_more",
- "itertools 0.14.0",
- "nybbles",
- "rayon",
- "reth-primitives-traits",
- "revm-database",
 ]
 
 [[package]]
@@ -12726,41 +12601,14 @@ dependencies = [
  "metrics",
  "parking_lot",
  "reth-db-api",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
+ "reth-metrics",
  "reth-primitives-traits",
- "reth-stages-types 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-stages-types",
  "reth-storage-api",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "tracing",
-]
-
-[[package]]
-name = "reth-trie-parallel"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-eip7928",
- "alloy-evm",
- "alloy-primitives",
- "alloy-rlp",
- "crossbeam-channel",
- "crossbeam-utils",
- "derive_more",
- "itertools 0.14.0",
- "metrics",
- "rayon",
- "reth-execution-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-metrics 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-primitives-traits",
- "reth-provider",
- "reth-storage-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-tasks",
- "reth-trie 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "revm-state",
- "thiserror 2.0.18",
+ "reth-storage-errors",
+ "reth-trie",
+ "reth-trie-common",
  "tracing",
 ]
 
@@ -12779,31 +12627,16 @@ dependencies = [
  "itertools 0.14.0",
  "metrics",
  "rayon",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
+ "reth-metrics",
  "reth-primitives-traits",
  "reth-provider",
- "reth-storage-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-storage-errors",
  "reth-tasks",
- "reth-trie 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-trie-sparse 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie",
+ "reth-trie-sparse",
  "revm-state",
  "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "reth-trie-sparse"
-version = "2.2.0"
-source = "git+https://github.com/paradigmxyz/reth?tag=v2.2.0#7e2e8624f89a7718e1b56a28dc44214d9afa608c"
-dependencies = [
- "alloy-primitives",
- "alloy-rlp",
- "alloy-trie",
- "reth-execution-errors 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "reth-primitives-traits",
- "reth-trie-common 2.2.0 (git+https://github.com/paradigmxyz/reth?tag=v2.2.0)",
- "smallvec",
  "tracing",
 ]
 
@@ -12817,10 +12650,10 @@ dependencies = [
  "alloy-trie",
  "metrics",
  "rayon",
- "reth-execution-errors 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
- "reth-metrics 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-execution-errors",
+ "reth-metrics",
  "reth-primitives-traits",
- "reth-trie-common 2.2.0 (git+https://github.com/kaleido-io/reth?rev=7e2e8624f89a7718e1b56a28dc44214d9afa608c)",
+ "reth-trie-common",
  "serde",
  "serde_json",
  "slotmap",
