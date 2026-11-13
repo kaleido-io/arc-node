@@ -375,3 +375,57 @@ strip = false
 # This version of `ark-relations` includes a fix for the issue,
 # as it bumped `tracing-subscriber` to v0.3.0.
 ark-relations = { git = "https://github.com/arkworks-rs/snark.git", rev = "9c528529763f1a0a2e0cba83528f93d32247d621" }
+
+# Pinned to kaleido-io/reth's release-v2.2.0 branch (commit 0a5f97e), which is
+# circlefin/arc-reth v2.2.0-arc.2 plus the `admin_addTrustedPeer` hostname-support backport.
+# Every reth-* crate is repointed so cargo doesn't see two versions of the same crate
+# (one from the arc-reth tag, one from our branch). All listed crates resolve to the
+# same git checkout.
+[patch."https://github.com/circlefin/arc-reth"]
+reth-basic-payload-builder = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-chainspec = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-cli = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-cli-commands = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-consensus = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-consensus-common = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-db = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-db-api = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-e2e-test-utils = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-engine-primitives = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-errors = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ethereum = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ethereum-engine-primitives = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ethereum-forks = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ethereum-payload-builder = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ethereum-primitives = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-evm = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-evm-ethereum = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-execution-cache = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-fs-util = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-ipc = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-network = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-network-peers = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-node-api = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-node-builder = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-node-core = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-node-ethereum = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-node-metrics = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-payload-builder = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-payload-primitives = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-provider = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-prune-types = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-revm = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc-api = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc-builder = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc-eth-api = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc-eth-types = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-rpc-server-types = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-stages-types = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-static-file = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-static-file-types = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-storage-api = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-tasks = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-tracing = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-transaction-pool = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
+reth-trie-parallel = { git = "https://github.com/kaleido-io/reth", rev = "0a5f97e889a65f03c97e147a6910da134f293311" }
